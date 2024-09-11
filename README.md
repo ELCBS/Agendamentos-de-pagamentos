@@ -39,16 +39,15 @@ Essa API possui os seguintes endpoints:
 
 Python e Django usando o SQLite como banco de dados padrão.
 
-## Passos para a Instalação
+##Pré-requisitos:
 
-1. Instalar o Visual Studio Code
-2. Instalar o Python versão mais recente
-3. Instalar o framework django (Comandos: pip install django)
-4. instalar o djangorestframework (Comandos: pip install djangorestframework)
+Instalar o Python versão mais recente
+Instalar o framework django (Comandos: pip install django)
+instalar o djangorestframework (Comandos: pip install djangorestframework)
 
-## Configuração
+## Inicialização
 
-1. No terminal do visual code digite: django-admin startproject pagamentos (Esse comando estamos iniciando o projeto no django)
+1. No terminal do visual code digite: ''' django-admin startproject pagamentos ''' (Esse comando estamos iniciando o projeto no django)
 
 
 2. Inicie o servidor de desenvolvimento:
