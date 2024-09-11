@@ -41,9 +41,11 @@ Python e Django usando o SQLite como banco de dados padrão.
 
 ## Pré-requisitos
 
-°Instalar o Python versão mais recente
-°Instalar o framework django (Comandos: ```pip install django```)
-°instalar o djangorestframework (Comandos: ```pip install djangorestframework```)
+Instalar o Python versão mais recente
+
+Instalar o framework django (Comandos: ```pip install django```)
+
+instalar o djangorestframework (Comandos: ```pip install djangorestframework```)
 
 ## Inicialização
 
