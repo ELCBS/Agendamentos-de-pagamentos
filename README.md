@@ -51,7 +51,7 @@ Python e Django usando o SQLite como banco de dados padrão.
 
 ## Inicialização
 
-1. No terminal do visual code digite: ```django-admin startproject ``` pagamentos (Esse comando estamos iniciando o projeto no django)
+1. No terminal do visual code digite: ```django-admin startproject pagamentos``` (Esse comando estamos iniciando o projeto no django)
 
 
 2. Inicie o servidor de desenvolvimento:
