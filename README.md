@@ -35,7 +35,9 @@ Essa API possui os seguintes endpoints:
     - **URL**: `/api/agendamentos/<id>/`
     - **Descrição**: Exclui um agendamento específico pelo seu ID.
 
-## Linguagem Utilizada, Python e Django usando o SQLite como banco de dados padrão.
+## Linguagem Utilizada 
+
+Python e Django usando o SQLite como banco de dados padrão.
 
 ## Passos para a Instalação
 
