@@ -47,7 +47,9 @@ instalar o djangorestframework (Comandos: pip install djangorestframework)
 
 ## Inicialização
 
-1. No terminal do visual code digite: django-admin startproject pagamentos (Esse comando estamos iniciando o projeto no django)
+1. No terminal do visual code digite: ```sh
+npm i python
+django-admin startproject``` pagamentos (Esse comando estamos iniciando o projeto no django)
 
 
 2. Inicie o servidor de desenvolvimento:
