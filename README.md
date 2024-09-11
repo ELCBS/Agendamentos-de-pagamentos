@@ -1,4 +1,6 @@
-No meu primeiro projeto desenvolvi uma api com Python e Django para gerenciar agendamentos de pagamentos. Ela permite criar, listar, consultar e excluir agendamentos, armazenando os dados em um banco de dados SQLite. Os dados são retornados e recebidos no formato JSON.
+
+Projeto desenvolvido com Python e Django para gerenciar agendamentos de pagamentos. Ele permite criar, listar, consultar e excluir agendamentos, armazenando os dados em um banco de dados SQLite. Os dados são retornados e recebidos no formato JSON.
+
 
 ## Funcionalidades
 
@@ -138,7 +140,3 @@ Para saber se deu certo iniciar o projeto rodando o comando: python manage.py ru
 ## Testes
 
 Você pode testar a API usando ferramentas como **Postman**, **Insomnia**, ou **cURL**.
-
-## Licença
-
-Este projeto é distribuído sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
