@@ -39,7 +39,7 @@ Essa API possui os seguintes endpoints:
 
 Python e Django usando o SQLite como banco de dados padrão.
 
-##Pré-requisitos:
+##Pré-requisitos##
 
 Instalar o Python versão mais recente
 Instalar o framework django (Comandos: ```pip install django```)
