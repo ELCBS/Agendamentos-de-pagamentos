@@ -42,19 +42,17 @@ Python e Django usando o SQLite como banco de dados padrão.
 ##Pré-requisitos:
 
 Instalar o Python versão mais recente
-Instalar o framework django (Comandos: pip install django)
-instalar o djangorestframework (Comandos: pip install djangorestframework)
+Instalar o framework django (Comandos: ```pip install django```)
+instalar o djangorestframework (Comandos: ```pip install djangorestframework```)
 
 ## Inicialização
 
-1. No terminal do visual code digite: ```sh
-npm i python
-django-admin startproject``` pagamentos (Esse comando estamos iniciando o projeto no django)
+1. No terminal do visual code digite: ```django-admin startproject``` pagamentos (Esse comando estamos iniciando o projeto no django)
 
 
 2. Inicie o servidor de desenvolvimento:
 
-Para saber se deu certo iniciar o projeto rodando o comando: python manage.py runserver
+Para saber se deu certo iniciar o projeto rodando o comando: ```python manage.py runserver```
 
 ## Exemplos de Uso
 
