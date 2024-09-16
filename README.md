@@ -37,7 +37,8 @@ Essa API possui os seguintes endpoints:
 
 ## Linguagem Utilizada 
 
-Python e Django usando o SQLite como banco de dados padrão.
+Python, Django usando o SQLite como banco de dados padrão e Django REST Framework para criação da API
+
 
 ## Pré-requisitos
 
