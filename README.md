@@ -167,8 +167,9 @@ Realizado o import no arquivo urls.py (AgendamentoDeleteAllView)
 
 Acrescentado  
      ```bash
-`path('agendamentos/delete-all/', AgendamentoDeleteAllView.as_view(), name='agendamento-delete-all')
+path('agendamentos/delete-all/', AgendamentoDeleteAllView.as_view(), name='agendamento-delete-all')
      ```
+     
 No aquivo views.py 
 
 Realizado o import:
@@ -185,8 +186,8 @@ class AgendamentoDeleteAllView(APIView):
         # Deleta todos os registros de Agendamento
         Agendamento.objects.all().delete()
  ```
-        # Retorna uma resposta de sucesso
-        return Response({"message": "Todos os agendamentos foram deletados."}, status=status.HTTP_204_NO_CONTENT)
+# Retorna uma resposta de sucesso
+return Response({"message": "Todos os agendamentos foram deletados."}, status=status.HTTP_204_NO_CONTENT)
 
 ## Deletar Todos os Agendamentos
 
