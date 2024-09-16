@@ -159,31 +159,36 @@ Você pode testar a API usando ferramentas como **Postman**, **Insomnia**, ou **
 
 Realize o download da coleção de testes no Postman: [Agendamento.postman_collection.json](Agendamento.postman_collection.json)
 
-## Bonus
+### Bonus
 
 Acresentado a função para deletar todos os agendamentos para facilitar a limpeza do banco
 
-Realizado o import no aequivo urls.py (AgendamentoDeleteAllView)
-acrescentado ```path('agendamentos/delete-all/', AgendamentoDeleteAllView.as_view(), name='agendamento-delete-all'),```
+Realizado o import no arquivo urls.py (AgendamentoDeleteAllView)
 
+Acrescentado  
+     ```bash
+`path('agendamentos/delete-all/', AgendamentoDeleteAllView.as_view(), name='agendamento-delete-all')
+     ```
 No aquivo views.py 
 
 Realizado o import:
-```from rest_framework.response import Response```
-```from rest_framework.views import APIView```
-
+```bash
+from rest_framework.response import Response
+from rest_framework.views import APIView
+ ```
 E acrescentado a classe
 
-# Deletar Todos os Agendamentos
+# Deletar Todos os Agendamentos:
+```bash
 class AgendamentoDeleteAllView(APIView):
     def delete(self, request, *args, **kwargs):
         # Deleta todos os registros de Agendamento
         Agendamento.objects.all().delete()
-        
+ ```
         # Retorna uma resposta de sucesso
         return Response({"message": "Todos os agendamentos foram deletados."}, status=status.HTTP_204_NO_CONTENT)
 
-### Deletar Todos os Agendamentos
+## Deletar Todos os Agendamentos
 
 - **Requisição (DELETE)**: `http://localhost:8000/api/agendamentos/delete-all/`
 
