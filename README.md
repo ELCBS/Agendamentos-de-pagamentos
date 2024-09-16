@@ -162,13 +162,15 @@ Realize o download da coleção de testes no Postman: [Agendamento.postman_colle
 ### Bonus
 
 Acresentado a função para deletar todos os agendamentos para facilitar a limpeza do banco
-
+```bash
 Realizado o import no arquivo urls.py (AgendamentoDeleteAllView)
+ ```
 
 Acrescentado  
-     ```bash
+
+```bash
 path('agendamentos/delete-all/', AgendamentoDeleteAllView.as_view(), name='agendamento-delete-all')
-     ```
+ ```
      
 No aquivo views.py 
 
@@ -186,8 +188,8 @@ class AgendamentoDeleteAllView(APIView):
         # Deleta todos os registros de Agendamento
         Agendamento.objects.all().delete()
  ```
-# Retorna uma resposta de sucesso
-return Response({"message": "Todos os agendamentos foram deletados."}, status=status.HTTP_204_NO_CONTENT)
+    # Retorna uma resposta de sucesso
+    return Response({"message": "Todos os agendamentos foram deletados."}, status=status.HTTP_204_NO_CONTENT)
 
 ## Deletar Todos os Agendamentos
 
