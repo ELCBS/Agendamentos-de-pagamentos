@@ -71,6 +71,10 @@ Para saber se deu certo iniciar o projeto rodando o comando: ```python manage.py
  ```bash
 http://localhost:8000/
 ```
+4. Faça download do projeto:
+ ```bash
+[http://localhost:8000/](https://github.com/ELCBS/Agendamentos-de-pagamentos/archive/refs/heads/main.zip)
+```
 
 - **Requisição (POST)**:
 
