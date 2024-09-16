@@ -71,23 +71,6 @@ Python, Django usando o SQLite como banco de dados padrão e Django REST Framewo
 
 ### Criar um Agendamento de Pagamento
 
-1. Crie o projeto Django:
-    ```bash
-    django-admin startproject pagamentos
-    ```
-2. Inicie o servidor de desenvolvimento:
-    ```bash
-    python manage.py runserver
-    ```
-3. Acesse o projeto no navegador:
- ```bash
-http://localhost:8000/
-```
-4. Faça download do projeto:
- ```bash
-`https://github.com/ELCBS/Agendamentos-de-pagamentos/archive/refs/heads/main.zip`
-```
-
 - **Requisição (POST)**:
 
     ```json
