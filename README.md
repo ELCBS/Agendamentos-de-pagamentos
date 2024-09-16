@@ -51,7 +51,6 @@ Python e Django usando o SQLite como banco de dados padrão.
 
 1. No terminal do visual code digite: ```django-admin startproject pagamentos``` (Esse comando estamos iniciando o projeto no django)
 
-
 2. Inicie o servidor de desenvolvimento:
 
 Para saber se deu certo iniciar o projeto rodando o comando: ```python manage.py runserver```
@@ -59,6 +58,8 @@ Para saber se deu certo iniciar o projeto rodando o comando: ```python manage.py
 ## Exemplos de Uso
 
 ### Criar um Agendamento de Pagamento
+
+Realizar o download das collection (Agendamento.postman_collection.json)
 
 - **Requisição (POST)**:
 
