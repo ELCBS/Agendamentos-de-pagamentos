@@ -183,7 +183,7 @@ from rest_framework.views import APIView
  ```
 E acrescentado a classe:
 
-# Deletar Todos os Agendamentos:
+## Deletar Todos os Agendamentos:
 ```bash
 class AgendamentoDeleteAllView(APIView):
     def delete(self, request, *args, **kwargs):
@@ -193,7 +193,7 @@ class AgendamentoDeleteAllView(APIView):
     # Retorna uma resposta de sucesso
     return Response({"message": "Todos os agendamentos foram deletados."}, status=status.HTTP_204_NO_CONTENT)
 
-## Deletar Todos os Agendamentos
+# Deletar Todos os Agendamentos
 
 - **Requisição (DELETE)**: `http://localhost:8000/api/agendamentos/delete-all/`
 
