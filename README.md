@@ -73,7 +73,7 @@ http://localhost:8000/
 ```
 4. Faça download do projeto:
  ```bash
-[http://localhost:8000/](https://github.com/ELCBS/Agendamentos-de-pagamentos/archive/refs/heads/main.zip)
+'http://localhost:8000/](https://github.com/ELCBS/Agendamentos-de-pagamentos/archive/refs/heads/main.zip'
 ```
 
 - **Requisição (POST)**:
