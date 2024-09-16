@@ -162,8 +162,10 @@ Realize o download da coleção de testes no Postman: [Agendamento.postman_colle
 ### Bonus
 
 Acresentado a função para deletar todos os agendamentos para facilitar a limpeza do banco
+
+#Realizado o import no arquivo urls.py 
 ```bash
-Realizado o import no arquivo urls.py (AgendamentoDeleteAllView)
+AgendamentoDeleteAllView
  ```
 
 Acrescentado  
@@ -172,7 +174,7 @@ Acrescentado
 path('agendamentos/delete-all/', AgendamentoDeleteAllView.as_view(), name='agendamento-delete-all')
  ```
      
-No aquivo views.py 
+#No aquivo views.py 
 
 Realizado o import:
 ```bash
