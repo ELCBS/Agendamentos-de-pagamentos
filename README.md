@@ -59,7 +59,7 @@ Para saber se deu certo iniciar o projeto rodando o comando: ```python manage.py
 
 ### Criar um Agendamento de Pagamento
 
-Realizar o download das collection (Agendamento.postman_collection.json)
+Realizar o download das collection (```Agendamento.postman_collection.json```)
 
 - **Requisição (POST)**:
 
