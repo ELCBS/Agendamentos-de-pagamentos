@@ -53,8 +53,17 @@ Python, Django usando o SQLite como banco de dados padrão e Django REST Framewo
 1. No terminal do visual code digite: ```django-admin startproject pagamentos``` (Esse comando estamos iniciando o projeto no django)
 
 2. Inicie o servidor de desenvolvimento:
-
-Para saber se deu certo iniciar o projeto rodando o comando: ```python manage.py runserver```
+    ```bash
+    python manage.py runserver
+    ```
+3. Acesse o projeto no navegador:
+ ```bash
+http://localhost:8000/
+```
+4. Faça download do projeto:
+ ```bash
+`https://github.com/ELCBS/Agendamentos-de-pagamentos/archive/refs/heads/main.zip`
+```
 
 ## Exemplos de Uso
 
