@@ -68,7 +68,8 @@ Para saber se deu certo iniciar o projeto rodando o comando: ```python manage.py
     python manage.py runserver
     ```
 3. Acesse o projeto no navegador:
-4. ```bash `http://localhost:8000/`.
+ ```bash
+http://localhost:8000/
 ```
 
 - **Requisição (POST)**:
