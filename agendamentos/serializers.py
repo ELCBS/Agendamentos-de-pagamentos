@@ -7,17 +7,13 @@ class AgendamentoSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
     def to_representation(self, instance):
-        # Obtém a representação original dos campos
+        # Usa o método padrão para pegar a representação
         representation = super().to_representation(instance)
-        
-        # Divide por 100 para voltar ao valor original
-        valor_pagamento = instance.valor_pagamento / 100
 
-        # Se o valor for inteiro (sem parte decimal), remove a vírgula e zeros
-        if valor_pagamento.is_integer():
+        # Remove o ponto final caso o valor seja um número inteiro
+        valor_pagamento = representation.get('valor_pagamento', None)
+        if valor_pagamento is not None:
+            # Verifica se o valor é float e o converte para int para remover o ponto decimal
             representation['valor_pagamento'] = int(valor_pagamento)
-        else:
-            # Caso contrário, mantém o valor decimal
-            representation['valor_pagamento'] = round(valor_pagamento, 2)
-
+        
         return representation
