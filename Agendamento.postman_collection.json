@@ -1,0 +1,199 @@
+{
+	"info": {
+		"_postman_id": "33e800b1-885a-49d5-b933-5614f1db4e23",
+		"name": "Agendamento",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33113832"
+	},
+	"item": [
+		{
+			"name": "Criar Agendamento de Pagamento",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"data_pagamento\": \"2024-09-10\",\r\n  \"permite_recorrencia\": true,\r\n  \"quantidade_recorrencia\": 1,\r\n  \"intervalo_recorrencia\": 1,\r\n  \"status_recorrencia\": \"captured\",\r\n  \"agencia\": 10,\r\n  \"conta\": 92752969,\r\n  \"valor_pagamento\": 200\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/agendamentos/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"agendamentos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar Agendamento",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/agendamentos/list",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"agendamentos",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Agendamento",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"data_pagamento\": \"2024-09-10\",\r\n  \"permite_recorrencia\": true,\r\n  \"quantidade_recorrencia\": 1,\r\n  \"intervalo_recorrencia\": 1,\r\n  \"status_recorrencia\": \"captured\",\r\n  \"agencia\": 10,\r\n  \"conta\": 92752969,\r\n  \"valor_pagamento\": 200\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/agendamentos/3/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"agendamentos",
+						"3",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar Agendamento",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"data_pagamento\": \"2024-09-10\",\r\n  \"permite_recorrencia\": true,\r\n  \"quantidade_recorrencia\": 1,\r\n  \"intervalo_recorrencia\": 1,\r\n  \"status_recorrencia\": \"captured\",\r\n  \"agencia\": 10,\r\n  \"conta\": 92752969,\r\n  \"valor_pagamento\": 200\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/agendamentos/1/delete/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"agendamentos",
+						"1",
+						"delete",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

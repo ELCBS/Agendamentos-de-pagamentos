@@ -37,7 +37,8 @@ Essa API possui os seguintes endpoints:
 
 ## Linguagem Utilizada 
 
-Python e Django usando o SQLite como banco de dados padrão.
+Python, Django usando o SQLite como banco de dados padrão e Django REST Framework para criação da API
+
 
 ## Pré-requisitos
 
@@ -49,12 +50,22 @@ Python e Django usando o SQLite como banco de dados padrão.
 
 ## Inicialização
 
-1. No terminal do visual code digite: ```django-admin startproject pagamentos``` (Esse comando estamos iniciando o projeto no django)
-
-
+1. Crie o projeto Django:
+    ```bash
+    django-admin startproject pagamentos
+    ```
 2. Inicie o servidor de desenvolvimento:
+    ```bash
+    python manage.py runserver
+    ```
+3. Acesse o projeto no navegador:
+ ```bash
+ `http://localhost:8000/`
+```
+4. Faça download do projeto:
 
-Para saber se deu certo iniciar o projeto rodando o comando: ```python manage.py runserver```
+https://github.com/ELCBS/Agendamentos-de-pagamentos/archive/refs/heads/main.zip
+
 
 ## Exemplos de Uso
 
@@ -143,3 +154,7 @@ Para saber se deu certo iniciar o projeto rodando o comando: ```python manage.py
 ## Testes
 
 Você pode testar a API usando ferramentas como **Postman**, **Insomnia**, ou **cURL**.
+
+## Coleção do Postman
+
+Realize o download da coleção de testes no Postman: [Agendamento.postman_collection.json](Agendamento.postman_collection.json)
