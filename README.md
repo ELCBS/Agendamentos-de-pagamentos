@@ -163,7 +163,7 @@ Realize o download da coleção de testes no Postman: [Agendamento.postman_colle
 
 ### Deletar Todos os Agendamentos
 
-- **Requisição (DELETE)**: `http://localhost:8000/api/agendamentos/1/`
+- **Requisição (DELETE)**: `http://localhost:8000/api/agendamentos/delete-all/`
 
 - **Resposta**: `message": "Todos os agendamentos foram deletados (204 No Content)`
 
