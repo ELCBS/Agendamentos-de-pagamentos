@@ -59,8 +59,6 @@ Para saber se deu certo iniciar o projeto rodando o comando: ```python manage.py
 
 ### Criar um Agendamento de Pagamento
 
-Realizar o download das collection (```Agendamento.postman_collection.json```)
-
 - **Requisição (POST)**:
 
     ```json
@@ -144,3 +142,7 @@ Realizar o download das collection (```Agendamento.postman_collection.json```)
 ## Testes
 
 Você pode testar a API usando ferramentas como **Postman**, **Insomnia**, ou **cURL**.
+
+## Coleção do Postman
+
+Realize o download da coleção de testes no Postman: [Agendamento.postman_collection.json](Agendamento.postman_collection.json)
