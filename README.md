@@ -59,6 +59,15 @@ Para saber se deu certo iniciar o projeto rodando o comando: ```python manage.py
 
 ### Criar um Agendamento de Pagamento
 
+1. Crie o projeto Django:
+    ```bash
+    django-admin startproject pagamentos
+    ```
+2. Inicie o servidor de desenvolvimento:
+    ```bash
+    python manage.py runserver
+    ```
+
 - **Requisição (POST)**:
 
     ```json
