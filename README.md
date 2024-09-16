@@ -159,7 +159,7 @@ Você pode testar a API usando ferramentas como **Postman**, **Insomnia**, ou **
 
 Realize o download da coleção de testes no Postman: [Agendamento.postman_collection.json](Agendamento.postman_collection.json)
 
-### Bonus
+## Bonus
 
 Acresentado a função para deletar todos os agendamentos para facilitar a limpeza do banco
 
