@@ -63,9 +63,9 @@ Python, Django usando o SQLite como banco de dados padrão e Django REST Framewo
  `http://localhost:8000/`
 ```
 4. Faça download do projeto:
- ```bash
+
 (https://github.com/ELCBS/Agendamentos-de-pagamentos/archive/refs/heads/main.zip)
-```
+
 
 ## Exemplos de Uso
 
