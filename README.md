@@ -158,3 +158,12 @@ Você pode testar a API usando ferramentas como **Postman**, **Insomnia**, ou **
 ## Coleção do Postman
 
 Realize o download da coleção de testes no Postman: [Agendamento.postman_collection.json](Agendamento.postman_collection.json)
+
+## Bonus
+
+### Deletar Todos os Agendamentos
+
+- **Requisição (DELETE)**: `http://localhost:8000/api/agendamentos/1/`
+
+- **Resposta**: `message": "Todos os agendamentos foram deletados (204 No Content)`
+
