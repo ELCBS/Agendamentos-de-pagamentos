@@ -168,7 +168,7 @@ Acresentado a função para deletar todos os agendamentos para facilitar a limpe
 AgendamentoDeleteAllView
  ```
 
-Acrescentado  
+Acrescentado:  
 
 ```bash
 path('agendamentos/delete-all/', AgendamentoDeleteAllView.as_view(), name='agendamento-delete-all')
@@ -181,7 +181,7 @@ Realizado o import:
 from rest_framework.response import Response
 from rest_framework.views import APIView
  ```
-E acrescentado a classe
+E acrescentado a classe:
 
 # Deletar Todos os Agendamentos:
 ```bash
