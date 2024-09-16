@@ -9,12 +9,12 @@ class Agendamento(models.Model):
     status_recorrencia = models.CharField(max_length=100)
     agencia = models.IntegerField()
     conta = models.IntegerField()
-    valor_pagamento = models.FloatField()
+    valor_pagamento = models.FloatField()  # Entrada como float
 
     def save(self, *args, **kwargs):
-        # Converte valor de Decimal para inteiro antes de salvar
-        if isinstance(self.valor_pagamento, float) or isinstance(self.valor_pagamento, Decimal) :
-            self.valor_pagamento = int(self.valor_pagamento)
+        # Multiplica o valor por 100 para salvar como centavos (inteiro)
+        if isinstance(self.valor_pagamento, (float, Decimal)):
+            self.valor_pagamento = int(Decimal(self.valor_pagamento) * 100)  # Multiplica por 100 e converte para inteiro
         super().save(*args, **kwargs)
 
     def __str__(self):
